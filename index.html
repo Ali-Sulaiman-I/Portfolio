@@ -16,14 +16,14 @@
   --cyan:#38BDF8;--cyan-bright:#7DD3FC;--violet:#A78BFA;--violet-bright:#C4B5FD;
   --text:#F1F5F9;--muted:#8B98AD;--muted-dim:#5A6679;
   --border:rgba(125,211,252,0.10);--border-lit:rgba(125,211,252,0.30);
-  --grad:linear-gradient(120deg,#7DD3FC 0%,#A78BFA 100%);
+  
   --font-display:'Space Grotesk',sans-serif;--font-body:'Inter',sans-serif;--font-mono:'JetBrains Mono',monospace;
 }
 html{scroll-behavior:smooth;}
 body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
 ::selection{background:rgba(167,139,250,0.35);color:#fff;}
 .backdrop{position:fixed;inset:0;z-index:-2;overflow:hidden;}
-.grid-layer{position:absolute;inset:-2px;background-image:linear-gradient(rgba(125,211,252,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,252,0.045) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 40%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 40%,transparent 100%);}
+.grid-layer{position:absolute;inset:-2pxbackground-image:linear-gradient(rgba(125,211,252,0.045) 1px,transparent 1px),linear-gradient(90deg,rgba(125,211,252,0.045) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 40%,transparent 100%);-webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 0%,#000 40%,transparent 100%);}
 .orb{position:absolute;border-radius:50%;filter:blur(110px);opacity:0.5;}
 .orb-1{width:480px;height:480px;background:#1E5A8A;top:-160px;right:-120px;animation:float1 18s ease-in-out infinite;}
 .orb-2{width:420px;height:420px;background:#3B2D6B;bottom:10%;left:-160px;animation:float2 22s ease-in-out infinite;}
@@ -188,7 +188,7 @@ section{position:relative;}
   <div class="status reveal"><span class="pulse"></span> Available for internships &amp; freelance work</div>
   <p class="hero-eyebrow reveal">Computer Science Student &middot; Data Science Major</p>
   <h1 class="hero-title reveal">Hi, I'm Ali Sulaiman.<br>I turn ideas into <span class="grad">working products.</span></h1>
-  <p class="hero-sub reveal">I build full-stack web apps, desktop tools, and AI-driven solutions that ship and solve real problems. Equal parts <strong>software engineer</strong> and <strong>data thinker</strong>, focused on turning complex logic into clean, usable products.</p>
+  <p class="hero-sub reveal">I build full-stack web apps, desktop tools, and AI-driven solutions that ship and solve real problems. <strong>data thinker</strong>, focused on turning complex logic into clean, usable products.</p>
   <div class="btn-row reveal">
     <a href="#work" class="btn btn-primary">View my work <span class="arrow">&rarr;</span></a>
     <a href="#contact" class="btn btn-ghost">Let's connect</a>
